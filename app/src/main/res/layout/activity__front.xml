@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F3"
+    android:orientation="vertical"
+    tools:context=".Activity_Front">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="400dp"
+        android:layout_height="314dp"
+        android:layout_weight="7"
+        android:background="@drawable/chickenmomo"
+        android:padding="20dp"
+        android:contentDescription="TODO" />
+
+
+    <TextView
+        android:id="@+id/tvSlogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="130dp"
+        android:gravity="center"
+        android:text="welcome to Restro"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:layout_weight="5"
+        android:textStyle="bold"
+        android:visibility="visible"/>
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/chickenmomo"
+    tools:context=".dashboard">
+
+
+
+    <TextView
+       android:id="@+id/information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginTop="300dp"
+        android:textSize="30dp"
+        android:text="Click on Upload and then Show upload to view items"
+        android:fontFamily="@string/common_google_play_services_enable_button"
+        android:textFontWeight="Bold"
+        />
+
+  <Button
+      android:id="@+id/logout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:visibility="invisible"
+      android:layout_margin="15dp"
+      android:text="Log Out"
+      />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imagesholder"
+        android:text="Upload"
+       />
+
+    <ToggleButton
+        android:id="@+id/upload2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_alignBottom="@+id/imagesholder"
+        android:text="First Click Here" />
+
+
+    <ProgressBar
+        android:id="@+id/progress_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/imagesholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="0dp"
+        android:paddingTop="0dp" />
+
+
+
+
+</RelativeLayout>
+
+
