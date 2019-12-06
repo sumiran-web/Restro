@@ -37,7 +37,7 @@ private Button login;
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String emailaddress = username.getText().toString().trim();
+         String emailaddress = username.getText().toString().trim();
                 String inputpassword = password.getText().toString().trim();
 
                 if (TextUtils.isEmpty(emailaddress)){
@@ -65,11 +65,11 @@ private Button login;
                                     startActivity(new Intent(getApplicationContext(),dashboard.class));
 
                                 } else {
-                                    Toast.makeText(MainActivity.this, "Login failed", Toast.LENGTH_SHORT).show();
+                                 Toast.makeText(MainActivity.this, "Login failed", Toast.LENGTH_SHORT).show();
 
                                 }
 
-                                // ...
+
                             }
                         });
 
@@ -86,7 +86,7 @@ private Button login;
 startActivity(new Intent(getApplicationContext(),register.class));
     }
 
-    /*  */
+
 
 
     @Override

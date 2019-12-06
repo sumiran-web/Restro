@@ -1,50 +1,42 @@
 {
   "project_info": {
-    "project_number": "950780113634",
-    "firebase_url": "https://restro-41e0c.firebaseio.com",
-    "project_id": "restro-41e0c",
-    "storage_bucket": "restro-41e0c.appspot.com"
+    "project_number": "445962907379",
+    "firebase_url": "https://restro-3640d.firebaseio.com",
+    "project_id": "restro-3640d",
+    "storage_bucket": "restro-3640d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:950780113634:android:2457a63025a0f849",
+        "mobilesdk_app_id": "1:445962907379:android:cec4037c99351c65481186",
         "android_client_info": {
           "package_name": "com.example.restro"
         }
       },
       "oauth_client": [
         {
-          "client_id": "950780113634-ng7r28gmdmv2iqti0p882h8bmvq3mecq.apps.googleusercontent.com",
+          "client_id": "445962907379-i6odmscd954lb0qc6iq768akmbdac43n.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.restro",
-            "certificate_hash": "c24e911ffd10bfba098b5a0486b7ad5dfaa8eaa4"
+            "certificate_hash": "42140646e66dd1579241e08f15cf242b501c29ac"
           }
         },
         {
-          "client_id": "950780113634-1ecn5mc4srji80capcvtt3daep755dg1.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.restro",
-            "certificate_hash": "5d6f1456f7c9d4f0d1899c75c7655c6081e9b227"
-          }
-        },
-        {
-          "client_id": "950780113634-esq97da8uko2cn8mh61o8dkerifgv28p.apps.googleusercontent.com",
+          "client_id": "445962907379-e4u52fkkv4g6i08jhkt0qff3cusem2cv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCM49s5wp8-VHVWInp9vqULO8Lm6DW0SRs"
+          "current_key": "AIzaSyB-oWOphaALcdYXhWSJbva_laugWxPVSfU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "950780113634-esq97da8uko2cn8mh61o8dkerifgv28p.apps.googleusercontent.com",
+              "client_id": "445962907379-e4u52fkkv4g6i08jhkt0qff3cusem2cv.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

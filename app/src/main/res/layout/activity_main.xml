@@ -42,21 +42,20 @@ android:orientation="vertical"
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:textColorHint="@color/colorAccent"
-        android:layout_marginTop="5dp"
-        app:passwordToggleEnabled="true"
-        >
+        app:passwordToggleEnabled="true">
 
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
             android:ems="10"
+            android:hint="Password"
             android:inputType="textPassword"
-            android:textSize="10sp"/>
+            android:textSize="10sp" />
     </android.support.design.widget.TextInputLayout>
 
     <RelativeLayout
